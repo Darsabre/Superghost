@@ -1,15 +1,25 @@
-turn=1
+var turn=1
+var diction=["abe", "bear", "bead", "rabies", "babe", "abed"]
 
-
-window.onload{
-  document.getElementById("before").addEventListener("click", );
-  document.getElementById("after").addEventListener("click", );
-  document.getElementById("challenge").addEventListener("click", );
+window.onload= function() {
+  document.querySelector("#before").addEventListener("click", addLetterBefore);
+  document.querySelector("#after").addEventListener("click", addLetterAfter);
+  document.querySelector("#challenge").addEventListener("click", challenge);
+  document.querySelector("#startButton").addEventListener("click", startNewGame)
 }
 
-if(turn%2=0) {
-  currentPlayer = player2
+var addLetterAfter = function(){
+var word=document.querySelector("#chalkboard")
+
 }
-else  {
-  currentPlayer = player1
+var addLetterBefore = function(){
+
+}
+
+var challenge = function(){
+
+}
+
+var startNewGame = function () {
+
 }
